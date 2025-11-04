@@ -51,26 +51,11 @@ const StudentLandingPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      {/* <AppHeader 
-        studentName={studentData.name}
-        studentAvatar={studentData.avatar}
-      /> */}
-
       {/* Main Dashboard Content */}
       <main className="container mx-auto px-4 py-6">
-        <div className="mb-6">
-          <h2 className="text-2xl font-bold text-foreground mb-2">
-            Welcome back, {studentData.name.split(' ')[0]}!
-          </h2>
-          <p className="text-muted-foreground">
-            Here's your academic progress and achievements overview.
-          </p>
-        </div>
-
         {/* Dashboard Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          
+
           {/* Academic Report Cards */}
           <DashboardCard
             title="Academic Report Cards"
