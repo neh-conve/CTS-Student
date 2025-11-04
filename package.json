@@ -1,6 +1,5 @@
 {
-  "name": "vite_react_shadcn_ts",
-  "homepage": "https://harsh-conve.github.io/Student_CTS",
+  "name": "cts_student",
   "private": false,
   "version": "0.0.0",
   "type": "module",
